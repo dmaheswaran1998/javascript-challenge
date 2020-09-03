@@ -18,7 +18,7 @@ data.forEach(function(UFOSighting) {
 
 
 //Setting up the button 
-// Select the button
+// Select the  filter button
 var button = d3.select("#filter-btn");
 
 // Create event handlers 
@@ -35,7 +35,7 @@ function runEnter(){
 
     //Select input element and value
 
-    //tre try except command is used to avoid null values
+    //tre try except command is used to avoid null values and return a bla nl value if it isnt entered
     try {
     var dateTime=d3.select("#datetime").property("value");
     }
@@ -112,6 +112,7 @@ function runEnter(){
 
     console.log(filteredData);
     //getting the property element 
+    //logging it out.
 
     filteredData.forEach((UFOSighting) => {
         var row = tbody.append('tr');
