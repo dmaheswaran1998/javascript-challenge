@@ -15,3 +15,5 @@ All inputs(except for date) should be entered all in lowercase for the filters t
 Both the country and state codes in the datasets are both only two letters. 
 Please look at the table when the webpage loads to see further information about the way in which the data loads. 
 
+This can filter for up to five criteria, For example if you put in both a date (1/1/2010) and a shape  (triangle), it will show all UFOs that fill bothf of those criteria and skip over all filters that are entered in as blank. 
+
